@@ -1,0 +1,21 @@
+.navlink{
+    color: white!important;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.logo{
+    width: 70px;
+}
+
+.footer{
+    background-color: rgb(71, 71, 255);
+ 
+    color: white;
+}
+
+footer{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
