@@ -11,13 +11,12 @@ const Service = (props) => {
           <p class="card-text">{description}</p>
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">{topic}</li>
-          <li class="list-group-item">{tutor}</li>
-          <li class="list-group-item">{fee}</li>
+          <li class="list-group-item"> Topic : {topic}</li>
+          <li class="list-group-item">Tutor : {tutor}</li>
+          <li class="list-group-item">Fee : {fee}</li>
         </ul>
         <div className="body">
-            <button className="w-100 btn btn-warning">Buy Now</button>
-          
+            <button className="w-100 btn btn-warning">Buy Now</button> 
         </div>
   
       </div>
