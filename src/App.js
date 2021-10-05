@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer';
 import Courses from './components/Courses/Courses';
 import NoResult from './components/NoResult/NoResult';
 import Tutor from './components/Tutor/Tutor';
+import Form from './components/Form/Form';
 
 
 function App() {
@@ -31,8 +32,11 @@ function App() {
            <Route path="/services">
              <Services></Services>
            </Route>
-           <Route path="/tutor">
+           <Route exact path="/tutor">
             <Tutor></Tutor>
+           </Route>
+           <Route path="/tutor/form">
+            <Form></Form>
            </Route>
            <Route path="*">
            <NoResult></NoResult>
